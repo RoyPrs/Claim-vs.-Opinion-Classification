@@ -1,15 +1,50 @@
+# 🧠 Claim vs. Opinion Classifier
+This project is a simple but effective binary classifier that distinguishes between factual claims and subjective opinions in short text passages. It’s designed as a foundational NLP task to demonstrate how text data can be cleaned, vectorized, and modeled for binary classification.
 
-# 🧠 Claim vs. Opinion Classifier Using Natural Language Processing (100% Accuracy)
-This project demonstrates a clean and effective pipeline for classifying short text snippets into claims or opinions. Despite its simplicity, the task reflects a key application in content moderation, journalism, and social media monitoring.
+## 💡 Motivation
+In today's digital world, the ability to distinguish fact from opinion is critical in areas like journalism, content moderation, and social listening. This project demonstrates a practical NLP workflow using classic machine learning methods — with 100% cross-validated accuracy, thanks to the clarity and structure of the dataset.
 
-💬 Goal: Distinguish factual claims from subjective opinions.
+## 🔧 Tools and Technologies
+- Python
+- scikit-learn
+- CountVectorizer
+- Logistic Regression
+- pandas, numpy
+- Jupyter Notebook
 
-🧹 Preprocessing: Basic NLP cleaning (lowercasing, tokenization, stopword removal).
+## 🧪 Dataset
+A small, well-structured dataset containing labeled short sentences as either:
+- Claim: A verifiable statement (e.g., "The Earth revolves around the Sun.")
+- Opinion: A subjective thought or feeling (e.g., "I think the sky looks beautiful today.")
 
-🧠 Model: Logistic Regression + CountVectorizer
+## 🚀 Approach
+- Text Preprocessing
+- Lowercasing
+- Stopword removal
+- Tokenization (via CountVectorizer)
+- Vectorization
+- Bag-of-Words with CountVectorizer
+- Model Training
+- Logistic Regression
+- 5-Fold Cross-Validation
+- Achieved 100% accuracy
 
-🔁 Validation: 5-fold cross-validation, achieving 100% accuracy, indicating the dataset is clear and well-structured for this task.
+## 📈 Results
+- Accuracy: 100%
+- Cross-Validation: 100%
+- Precision / Recall / F1: 100% (all classes)
 
-📌 Skills Highlighted: Text cleaning, vectorization, binary classification, pipeline structuring, and model evaluation.
+## 🧠 What I Learned
+- How to clean and vectorize textual data
+- Building binary classifiers with classical ML
+- Evaluating model performance using cross-validation
+- How even simple models can work well on clear and well-defined datasets
 
-While basic, this project was intentionally designed to reflect foundational NLP principles in action. It serves as a building block for more complex tasks like emotion detection, fake news detection, or sentiment analysis
+## 📦 Future Improvements
+- Add more nuanced, ambiguous examples
+- Use a neural model like LSTM or BERT
+- Build a web interface to test real-time input
+
+## 📌 Summary
+Although basic, this project reflects a strong grasp of fundamental NLP techniques and a complete ML pipeline. It's also a good foundation for more advanced NLP tasks like emotion detection, sentiment analysis, or fake news detection.
+
