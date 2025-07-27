@@ -1,4 +1,15 @@
-# Claim vs. Opinion Classification Using NLP
-Using Natural Language Processing to detect if a statement is fact or opinion
 
-In this project, I built a natural language processing pipeline to distinguish between factual claims and personal opinions in user-generated text, such as TikTok comments and social media posts. Using `CountVectorizer` and a logistic regression model, I achieved high accuracy through careful text preprocessing and feature engineering. This work reflects my strong grasp of text classification techniques and my passion for using AI to better understand consumer voice and behavior — a crucial skill in growth marketing and customer research.
+# 🧠 Claim vs. Opinion Classifier Using Natural Language Processing (100% Accuracy)
+This project demonstrates a clean and effective pipeline for classifying short text snippets into claims or opinions. Despite its simplicity, the task reflects a key application in content moderation, journalism, and social media monitoring.
+
+💬 Goal: Distinguish factual claims from subjective opinions.
+
+🧹 Preprocessing: Basic NLP cleaning (lowercasing, tokenization, stopword removal).
+
+🧠 Model: Logistic Regression + CountVectorizer
+
+🔁 Validation: 5-fold cross-validation, achieving 100% accuracy, indicating the dataset is clear and well-structured for this task.
+
+📌 Skills Highlighted: Text cleaning, vectorization, binary classification, pipeline structuring, and model evaluation.
+
+While basic, this project was intentionally designed to reflect foundational NLP principles in action. It serves as a building block for more complex tasks like emotion detection, fake news detection, or sentiment analysis
